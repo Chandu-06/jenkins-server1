@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('DOCKERHUB_CREDENTIALS')
-        DOCKER_IMAGE          = "pranay/flask-app"
+        DOCKER_IMAGE          = "devineni06/flask-app"
         DOCKER_TAG            = "${BUILD_NUMBER}"
         APP_PORT              = "5000"
         CONTAINER_NAME        = "flask-app"
